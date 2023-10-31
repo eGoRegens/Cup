@@ -1,11 +1,11 @@
 public class Cup {
     public static void main(String[] args) {
-        final int GLASS_VOLUME = 200;
-        final double GLASS_FULL = 51.2;
-        final double VOLUME_WATERS = (GLASS_VOLUME * GLASS_FULL) / 100;
+        final int glassVolumeMilliliters = 200;
+        final double glassFull = 51.2;
+        final double volumeWater = (glassVolumeMilliliters * glassFull) / 100;
 
-        System.out.println("Объем стакана - " + GLASS_VOLUME + " мл.");
-        System.out.println("Стакан заполнен в " + GLASS_FULL + "%");
-        System.out.println("Сейчас в стакане " + VOLUME_WATERS + " мл. воды.");
+        System.out.println("Объем стакана - " + glassVolumeMilliliters + " мл.");
+        System.out.println("Стакан заполнен в " + glassFull + "%");
+        System.out.println("Сейчас в стакане " + volumeWater + " мл. воды.");
     }
 }
